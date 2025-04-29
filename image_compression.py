@@ -3,8 +3,8 @@ from PIL import Image
 
 # Updated version with correct compression
 
-input_folder = r"your\input\folder\path"     # <-- EDIT THIS
-output_folder = r"your\output\folder\path"    # <-- EDIT THIS
+input_folder = r"your\input\folder\path"    
+output_folder = r"your\output\folder\path"    
 
 def convert_to_jpeg(input_path, output_folder):
     os.makedirs(output_folder, exist_ok=True)
